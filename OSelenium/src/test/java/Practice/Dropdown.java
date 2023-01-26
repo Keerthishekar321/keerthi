@@ -22,7 +22,7 @@ public class Dropdown {
 		for(WebElement a:value) {
 			System.out.println(a.getText());
 		}
-		
+		driver.quit();
 		
 
 	}
