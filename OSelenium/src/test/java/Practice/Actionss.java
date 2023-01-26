@@ -20,7 +20,7 @@ public class Actionss {
 		//Open the browser
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		File dest = new File("C:\\Users\\Shobha\\Desktop\\Files\\facebooook.png");
