@@ -41,5 +41,6 @@ public void closeBrowser() {
 @AfterSuite
 public void cd() {
 	System.out.println("close database");
+	//welcome
 }
 }
